@@ -1,0 +1,8 @@
+convex_adversarial
+numpy
+imageio
+scikit-image
+wget
+typing
+argparse
+waitGPU

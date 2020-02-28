@@ -1,0 +1,15 @@
+__pycache__/
+data/
+result/
+
+train_classifier/__pycache__
+train_classifier/checkpoint
+train_classifier/convex_adversarial/__pycache__
+
+generative/__pycache__
+geneartive/imgs
+generative/models
+geneartive/src/__pycache__
+
+*.DS_Store
+*.png
