@@ -8,7 +8,6 @@ The goals of this project are to:
 
 2. Empirically, evaluate the intrinsic robustness bound for various synthetically generated image distributions, with comparisons to the robustness of SOTA robust classifiers.
 
-#
 ## Installation
 The code was developed using Python3 on [Anaconda](https://www.anaconda.com/download/#linux).
 
@@ -21,7 +20,7 @@ The code was developed using Python3 on [Anaconda](https://www.anaconda.com/down
     ```text
     pip install -r requirements.txt
     ```
-#
+    
 ## Examples for MNIST experiments
 
 1. Train an ACGAN model using the original MNIST dataset:  
@@ -48,7 +47,6 @@ The code was developed using Python3 on [Anaconda](https://www.anaconda.com/down
     python test_robustness_mnist.py --method madry --robust-type in
     ```
 
-#
 ## Examples for ImageNet10 Experiments
 
 1. Dowload  the pretrained BigGAN model, estimate Lipschitz and reconstruct ImageNet10:
@@ -69,7 +67,7 @@ The code was developed using Python3 on [Anaconda](https://www.anaconda.com/down
     ```text
     python test_robustness_imagenet.py --method trades --robust-type unc
     ```
-#
+    
 ## What is in this Respository?
 
 * Folder ```geneartive```, including:
