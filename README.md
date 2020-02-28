@@ -1,12 +1,12 @@
 # Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models 
 
-*A repository for understanding the intrinsic robustness limits for robust learning against adversarial examples. Created by [Xiao Zhang](https://people.virginia.edu/~xz7bc/) and [Jinghui Chen](https://web.cs.ucla.edu/~jhchen/). [Link to the ArXiv paper](https://arxiv.org/pdf/1810.09225.pdf).* 
+*A repository for understanding the intrinsic robustness limits for robust learning against adversarial examples. Created by [Xiao Zhang](https://people.virginia.edu/~xz7bc/) and [Jinghui Chen](https://web.cs.ucla.edu/~jhchen/). [Link to the ArXiv paper](https://github.com/xiaozhanguva/Intrinsic-Rob).* 
 
 The goals of this project are to:
 
-1. Theoretically, derive an intrinsic robustness bound with respect to L2 perturbations, for any given input distribution that can be captured by some conditional generative model.
+1. Theoretically, derive an intrinsic robustness bound with respect to L2 perturbations, for any input distribution that can be captured by some conditional generative model.
 
-2. Empirically, evaluate the derived intrinsic robustness bound for various synthetically generated image distributions, with comparisons to the robustness of SOTA robust classifiers.
+2. Empirically, evaluate the intrinsic robustness bound for various synthetically generated image distributions, with comparisons to the robustness of SOTA robust classifiers.
 
 #
 ## Installation
@@ -73,9 +73,9 @@ The code was developed using Python3 on [Anaconda](https://www.anaconda.com/down
 ## What is in this Respository?
 
 * Folder ```geneartive```, including:
+  * ```src```: folder that contains functions for building BigGAN
   * ```acgan.py, gan.py```: functions for training MNIST generative models
   * ```biggan.py```: neural network architecture for BigGAN generator
-  * ```src```: contains additional functions for modeling BigGAN
   * ```utils.py```: auxiliary functions for generative models
 
 * Folder ```train_classifer```, including:
