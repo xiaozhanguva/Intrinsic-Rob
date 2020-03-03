@@ -1,6 +1,6 @@
 # Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models 
 
-*A repository for understanding the intrinsic robustness limits for robust learning against adversarial examples. Created by [Xiao Zhang](https://people.virginia.edu/~xz7bc/) and [Jinghui Chen](https://web.cs.ucla.edu/~jhchen/). [Link to the ArXiv paper](https://github.com/xiaozhanguva/Intrinsic-Rob).* 
+*A repository for understanding the intrinsic robustness limits for robust learning against adversarial examples. Created by [Xiao Zhang](https://people.virginia.edu/~xz7bc/) and [Jinghui Chen](https://web.cs.ucla.edu/~jhchen/). [Link to the ArXiv paper](https://arxiv.org/abs/2003.00378).* 
 
 The goals of this project are to:
 
